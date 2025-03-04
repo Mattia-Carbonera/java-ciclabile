@@ -5,9 +5,9 @@ import java.util.Iterator;
 
 public class Number {
     private int[] numbers;
-    HashSet<Integer> num = new HashSet<>();
-    Iterator<Integer> iterator;
-    Integer currentNumber;
+    private HashSet<Integer> num = new HashSet<>();
+    private Iterator<Integer> iterator;
+    private Integer currentNumber;
 
     // * costruttore
     public Number(int[] numbers) {
