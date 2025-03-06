@@ -8,6 +8,14 @@ public class Main {
         firstArray.getNumbers();
         firstArray.getNumbers();
         firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+        firstArray.getNumbers();
+
         
         firstArray.hasAncoraElementi();
 

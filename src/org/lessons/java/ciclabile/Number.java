@@ -1,7 +1,6 @@
 package org.lessons.java.ciclabile;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
 
 public class Number {
@@ -23,8 +22,12 @@ public class Number {
 
     
     public void getNumbers() {
-        currentNumber = iterator.next();
-        System.out.println(currentNumber);
+        if (iterator.hasNext()) {
+            currentNumber = iterator.next();
+            System.out.println("Prossimo numero: " + currentNumber);
+        } else {
+            System.out.println("Non ci sono più numeri");
+        }
     }
 
     public void hasAncoraElementi() {
@@ -38,7 +41,6 @@ public class Number {
         System.out.println("La nuova lista: " + num);
         
         // aggiorno l'array
-        // System.out.println("debug: num.size(): " + num.size());
         int[] newArray = new int[num.size()];
         for(int i = 0; i < num.size(); i++) {
             newArray[i] = num.get(i);
@@ -53,8 +55,9 @@ public class Number {
         System.out.println("num content: " + num);
 
         System.out.println("numbers length: " + numbers.length);
-        for(int i = 0; i < numbers.length; i++)
-            System.out.println("numbers at index " + i + " :" + numbers[i]);
+        for(int i = 0; i < numbers.length; i++) {
+            System.out.println("numbers at index " + i + ": " + numbers[i]);
         }
+    }
 
 }
