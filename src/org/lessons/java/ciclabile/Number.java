@@ -12,6 +12,7 @@ public class Number {
 
     public Number() {
         int[] array = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        
         this.numbers = array;
         this.indexCurrentNumber = 0;
     }
@@ -34,6 +35,7 @@ public class Number {
         }
         newArray[numbers.length] = numberToAdd;
         numbers = newArray;
+
         System.out.print("L'elemento '" + numberToAdd + "' è stato aggiunto correttamente, il nuovo array ora ha i seguenti vaolri: ");
         for(int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + ", ");
