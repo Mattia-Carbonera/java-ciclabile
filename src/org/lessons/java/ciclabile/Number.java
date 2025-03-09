@@ -42,6 +42,11 @@ public class Number {
         }
     }
 
+    // * aggiunta
+    public void resetCurrentNumber() {
+        indexCurrentNumber = 0;
+    }
+
     public void debug() {
     }
 

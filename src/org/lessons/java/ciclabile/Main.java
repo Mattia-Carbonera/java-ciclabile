@@ -16,6 +16,15 @@ public class Main {
         System.out.println("Elemento corrente: " + firstArray.getNumbers());
         System.out.println("Elemento corrente: " + firstArray.getNumbers());
         // System.out.println("Elemento corrente: " + firstArray.getNumbers());
+        
+        // * Reset currentNumber
+        // firstArray.resetCurrentNumber();
+        // System.out.println("-- Dopo reset --");
+        // System.out.println("Elemento corrente: " + firstArray.getNumbers());
+        // System.out.println("Elemento corrente: " + firstArray.getNumbers());
+        // System.out.println("Elemento corrente: " + firstArray.getNumbers());
+        // System.out.println("Elemento corrente: " + firstArray.getNumbers());
+
 
 
         System.out.println("Ci sono ancora elementi? " + (firstArray.hasAncoraElementi() == true ? "Si, ci sono altri elementi" : "No, non ci sono altri elementi"));
@@ -24,7 +33,7 @@ public class Main {
         System.out.println("");
 
 
-        System.out.println("--------------------- fisrtArray ---------------------");
+        System.out.println("--------------------- secondArray ---------------------");
         Number secondArray = new Number();
     
         System.out.println("Elemento corrente: " + secondArray.getNumbers());
