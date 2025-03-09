@@ -1,5 +1,7 @@
 package org.lessons.java.ciclabile;
 
+import java.util.Arrays;
+
 public class Number {
     private int[] numbers;
     private int indexCurrentNumber;
@@ -47,7 +49,17 @@ public class Number {
         indexCurrentNumber = 0;
     }
 
+    public void ordinaLista() {
+        Arrays.sort(numbers);
+    }
+
     public void debug() {
+        System.out.println("");
+        System.out.println("--- valori array ---");
+        for(int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + ", ");
+        }
+        System.out.println("");
     }
 
 }

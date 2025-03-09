@@ -50,6 +50,12 @@ public class Main {
         System.out.println("Ci sono ancora elementi? " + (secondArray.hasAncoraElementi() == true ? "Si, ci sono altri elementi" : "No, non ci sono altri elementi"));
 
         secondArray.addElemento(10);
+
+        // * ordina lista
+        // secondArray.debug();
+        // secondArray.ordinaLista();
+        // secondArray.debug();
+        
         System.out.println("");
 
     }
