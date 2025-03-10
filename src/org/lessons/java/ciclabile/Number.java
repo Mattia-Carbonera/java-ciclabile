@@ -53,6 +53,7 @@ public class Number {
         Arrays.sort(numbers);
     }
 
+    // * debug
     public void debug() {
         System.out.println("");
         System.out.println("--- valori array ---");
